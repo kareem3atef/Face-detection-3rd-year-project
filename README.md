@@ -14,4 +14,5 @@ i provided a video to my code and it detect the faces on every frame of it
 ### and that's the result after detection
 
 ![after detection_1](figures/after%20detection_1.jpg)
+
 ![after detection_2](figures/after%20detection_2.jpg)
