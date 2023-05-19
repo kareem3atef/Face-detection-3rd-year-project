@@ -1,14 +1,11 @@
-% Step 1: Preparing the environment
-% Install Computer Vision Toolbox if not already installed
-
-% Step 2: Loading the video
+% Step 1: Loading the video
 videoFile = '.\videos\Adel Imam .mp4';
 videoReader = VideoReader(videoFile);
 frameRate = videoReader.FrameRate;
 frameWidth = videoReader.Width;
 frameHeight = videoReader.Height;
 
-% Step 3: Face detection
+% Step 2: Face detection
 faceDetector = vision.CascadeObjectDetector('FrontalFaceCART');
 
 while hasFrame(videoReader)
